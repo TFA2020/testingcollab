@@ -44,3 +44,7 @@ def add():
 
     # return a message to the user
     return ""
+
+@app.route("/test")
+def route():
+    return "this is a test"
