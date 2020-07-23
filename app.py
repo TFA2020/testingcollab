@@ -31,6 +31,7 @@ events = [
 
 def index():
     print("hello")
+    print("hey")
     return render_template('index.html', events = events)
 
 
