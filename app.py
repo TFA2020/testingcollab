@@ -30,6 +30,7 @@ events = [
 @app.route('/index')
 
 def index():
+    print("hey")
     return render_template('index.html', events = events)
 
 
